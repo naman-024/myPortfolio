@@ -27,28 +27,28 @@ function unHoverEffect() {
 }
 
 window.addEventListener("load", () => {
-    
-setTimeout(() => {
-    
-    hoverArea.addEventListener('mouseover', ()=>{
-        hoverEffect()
-        onHover = true
-    })
-    hoverArea.addEventListener('mouseout', ()=>{
-        onHover = false
-        setTimeout(() => {
-            if(socialContainer.style.paddingLeft === "200px" && !onHover){
-                setTimeout(() => {
-                    unHoverEffect()
-                }, 500);
-            }
-        }, 100);
-        
-    
-    
-    })
 
-}, 1000);
+    setTimeout(() => {
 
-  });
+        hoverArea.addEventListener('mouseover', () => {
+            hoverEffect()
+            onHover = true
+        })
+        hoverArea.addEventListener('mouseout', () => {
+            onHover = false
+            setTimeout(() => {
+                if (socialContainer.style.paddingLeft === "200px" && !onHover) {
+                    setTimeout(() => {
+                        unHoverEffect()
+                    }, 500);
+                }
+            }, 100);
+
+
+
+        })
+
+    }, 1000);
+
+});
 
