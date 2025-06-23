@@ -30,4 +30,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or would like to get in touch, please contact me at onlynemon24@gmail.com.
+If you have any questions or would like to get in touch, please contact me at onlynemon24@gmail.com
